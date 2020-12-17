@@ -112,3 +112,65 @@ if __name__ == '__main__':
     print(data1)
     print(data2)
     print(dup)
+
+    
+    
+    
+    
+    
+    
+    VISHNU.S.NAIR   ENG19CS0363
+SECTION-5
+a)input
+3
+1 2
+2 2
+8 7
+2
+3 4 
+3 4 
+
+b)import sys
+if __name__ == '__main__':
+data1 = []
+n1 = int(input())
+for _ in range(n1):
+k, v = map(int, input().split())
+for[k1,v1] in data1:
+if k1==k;
+sys.exit("illegal:data1")
+data1.append([k.v])
+data2={}
+n2=int(input())
+for _in  range(n2):
+k,v=map(int,inout().split())
+if k in data2:
+sys.exit("illegal :data2")
+data2[k]=v
+dup = uniqueUpdate(data1, data2)
+print(data1)
+print(data2)
+print(dup)
+c)TEST CASE 1
+
+ 4
+ 1   2
+ 3   3
+ 3   8
+ 4   9
+ 2
+ 3   3
+ 4   4
+
+     TEST CASE 2
+ 4
+ 1   2
+ 2   2
+ 3   3
+ 4   19
+ 2
+ 3   3
+ 4   19
+
+    TEST CASE 3
+THE TEST CASE WRITTEN IN 5a, which breaks the initially written code can be written
